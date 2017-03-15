@@ -64,3 +64,17 @@ console.log('Error:' + e.message);
 req.write(postData)
 
 req.end()
+
+
+执行结果
+status:200
+headers:{"server":"nginx","date":"Wed, 15 Mar 2017 05:29:40 GMT","content-type":"text/html; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","expires":"Thu, 19 Nov 1981 08:52:00 GMT","cache-control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","pragma":"no-cache","content-encoding":"gzip"}
+true
+object
+评论完毕
+bogon:http dt$ node comment.js
+status:200
+headers:{"server":"nginx","date":"Wed, 15 Mar 2017 05:31:58 GMT","content-type":"text/html; charset=utf-8","transfer-encoding":"chunked","connection":"keep-alive","vary":"Accept-Encoding, Accept-Encoding","expires":"Thu, 19 Nov 1981 08:52:00 GMT","cache-control":"no-store, no-cache, must-revalidate, post-check=0, pre-check=0","pragma":"no-cache","content-encoding":"gzip"}
+true
+object
+评论完毕
